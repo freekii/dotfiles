@@ -1,2 +1,26 @@
 import = ["/Users/matthewfreeman/.config/alacritty/dracula/dracula.toml"]
+[font]
+size = 14.0
 
+[font.bold]
+family = "FiraMono Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "FiraMono Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "FiraMono Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "FiraMono Nerd Font Mono"
+style = "Regular"
+
+[window]
+dynamic_title = false
+title = "dev"
+# startup_mode = "Maximized"
+dimensions = { columns = 160, lines = 50 }
+position = { x = 220, y = 200 }
