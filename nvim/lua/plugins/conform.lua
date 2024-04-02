@@ -15,6 +15,7 @@ return {
 				graphql = { "prettier" },
 				yaml = { "prettier" },
 				lua = { "stylua" },
+				go = { "gofumpt" },
 			},
 			format_on_save = {
 				lsp_fallback = true,
