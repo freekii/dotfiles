@@ -3,3 +3,7 @@ pip
 atlassian
 gh
 .DS_Store
+
+# ignore tmux plugins
+tmux/plugins
+
