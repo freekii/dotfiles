@@ -30,6 +30,9 @@ return {
 			lspconfig.gopls.setup({
 				capabilities = capabilities,
 			})
+			lspconfig.graphql.setup({
+				capabilities = capabilities,
+			})
 
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {})
