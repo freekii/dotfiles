@@ -10,6 +10,9 @@ return {
 			update_focused_file = {
 				enable = true,
 			},
+			view = {
+				adaptive_size = true,
+			},
 		})
 	end,
 }
