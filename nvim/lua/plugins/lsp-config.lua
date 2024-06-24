@@ -39,6 +39,9 @@ return {
 			lspconfig.kotlin_language_server.setup({
 				capabilities = capabilities,
 			})
+			lspconfig.pyright.setup({
+				capabilities = capabilities,
+			})
 
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "I", vim.diagnostic.open_float, {})
