@@ -42,6 +42,9 @@ return {
 			lspconfig.pyright.setup({
 				capabilities = capabilities,
 			})
+			lspconfig.yamlls.setup({
+				capabilities = capabilities,
+			})
 
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "I", vim.diagnostic.open_float, {})
