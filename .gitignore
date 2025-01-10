@@ -7,3 +7,6 @@ gh
 # ignore tmux plugins
 tmux/plugins
 cloudtoken
+
+#ignore github copilot secets
+github-copilot
