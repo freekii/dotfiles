@@ -9,7 +9,7 @@ return {
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
 			require("mason-lspconfig").setup({
-				ensure_installed = { "ts_ls", "lua_ls" },
+				ensure_installed = { "ts_ls", "lua_ls", "clangd" },
 			})
 		end,
 	},
@@ -21,6 +21,9 @@ return {
 			-- add capabilities to each lsp server
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
+			lspconfig.clangd.setup({
+				capabilties = capabilities,
+			})
 			lspconfig.lua_ls.setup({
 				capabilties = capabilities,
 			})
@@ -57,5 +60,47 @@ return {
 			vim.keymap.set("n", "<leader>gr", require("telescope.builtin").lsp_references, {})
 			vim.keymap.set("n", "<leader>gi", require("telescope.builtin").lsp_implementations, {})
 		end,
+	},
+	opts = {
+		servers = {
+			-- Ensure mason installs the server
+			clangd = {
+				keys = {
+					{ "<leader>ch", "<cmd>ClangdSwitchSourceHeader<cr>", desc = "Switch Source/Header (C/C++)" },
+				},
+				root_dir = function(fname)
+					return require("lspconfig.util").root_pattern(
+						"Makefile",
+						"configure.ac",
+						"configure.in",
+						"config.h.in",
+						"meson.build",
+						"meson_options.txt",
+						"build.ninja"
+					)(fname) or require("lspconfig.util").root_pattern(
+						"compile_commands.json",
+						"compile_flags.txt"
+					)(fname) or require("lspconfig.util").find_git_ancestor(fname)
+				end,
+				capabilities = {
+					offsetEncoding = { "utf-16" },
+				},
+				cmd = {
+					"clangd",
+					"--background-index",
+					"--clang-tidy",
+					"--header-insertion=iwyu",
+					"--completion-style=detailed",
+					"--function-arg-placeholders",
+					"--fallback-style=llvm",
+				},
+				init_options = {
+					usePlaceholders = true,
+					completeUnimported = true,
+					clangdFileStatus = true,
+					fallbackFlags = { "--std=c++20" },
+				},
+			},
+		},
 	},
 }
