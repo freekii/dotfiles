@@ -11,6 +11,7 @@ return {
 				enable = true,
 			},
 			view = {
+				side = "right",
 				adaptive_size = true,
 			},
 		})
