@@ -9,6 +9,9 @@ return {
 			vim.keymap.set("n", "<leader>ff", builtin.live_grep, {})
 
 			require("telescope").setup({
+				defaults = {
+					layout_strategy = "vertical",
+				},
 				pickers = {
 					find_files = {
 						find_command = { "rg", "--files", "--hidden", "--glob", "!**/.git/*" },
