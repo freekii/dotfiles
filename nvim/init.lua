@@ -1,17 +1,3 @@
-vim.cmd("set expandtab")
-vim.cmd("set tabstop=2")
-vim.cmd("set softtabstop=2")
-vim.cmd("set shiftwidth=2")
-vim.cmd("set relativenumber")
-vim.g.mapleader = " "
-
--- Disable netrw
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
-
--- Disable the check (wants you to use the default LazyNvim plugins)
-vim.g.lazyvim_check_order = false
-
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
@@ -29,11 +15,11 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
--- Setup lazy.nvim
+-- Setup lazy.nvim (plugin support)
 require("lazy").setup({
 	spec = {
 		-- add your plugins here
-		{ import = "plugins" },
+		{ import = "plugins" }, -- -> lua/plugins
 	},
 	-- Configure any other settings here. See the documentation for more details.
 	-- colorscheme that will be used when installing plugins.
@@ -41,3 +27,15 @@ require("lazy").setup({
 	-- automatically check for plugin updates
 	checker = { enabled = true },
 })
+
+-- Setup vim globals
+require("config.globals")
+
+-- Setup vim keymaps
+require("config.keymaps")
+
+-- Setup vim options
+require("config.options")
+
+-- Enable LSP's
+require("config.lsp")
