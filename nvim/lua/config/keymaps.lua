@@ -26,6 +26,8 @@ vim.keymap.set("n", "<leader>ff", telescope_builtin.live_grep, {})
 vim.keymap.set("n", "<leader>gd", telescope_builtin.lsp_definitions, {})
 vim.keymap.set("n", "<leader>gr", telescope_builtin.lsp_references, {})
 vim.keymap.set("n", "<leader>gi", telescope_builtin.lsp_implementations, {})
+-- nvim tree
+vim.keymap.set("n", "<leader>ntt", "<Cmd>NvimTreeToggle<CR>")
 
 -- formatting (conform.nvim)
 vim.keymap.set({ "n", "v" }, "<leader>gf", function()
