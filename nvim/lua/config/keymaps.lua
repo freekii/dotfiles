@@ -28,6 +28,8 @@ vim.keymap.set("n", "<leader>gr", telescope_builtin.lsp_references, {})
 vim.keymap.set("n", "<leader>gi", telescope_builtin.lsp_implementations, {})
 -- nvim tree
 vim.keymap.set("n", "<leader>ntt", "<Cmd>NvimTreeToggle<CR>")
+-- buffers
+vim.keymap.set("n", "<leader>bca", "<Cmd>BufferCloseAllButCurrent<CR>")
 
 -- formatting (conform.nvim)
 vim.keymap.set({ "n", "v" }, "<leader>gf", function()
