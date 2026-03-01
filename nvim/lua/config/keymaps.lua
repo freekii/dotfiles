@@ -39,3 +39,7 @@ vim.keymap.set({ "n", "v" }, "<leader>gf", function()
 		timeout_ms = 500,
 	})
 end)
+
+-- gitsigns
+local gitsigns = require("gitsigns")
+vim.keymap.set("n", "<leader>pl", gitsigns.preview_hunk)
