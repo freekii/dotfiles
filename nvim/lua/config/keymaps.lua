@@ -32,8 +32,9 @@ vim.keymap.set("n", "<leader>ntt", "<Cmd>NvimTreeToggle<CR>")
 vim.keymap.set("n", "<leader>bca", "<Cmd>BufferCloseAllButCurrent<CR>")
 
 -- formatting (conform.nvim)
-vim.keymap.set({ "n", "v" }, "<leader>gf", function()
+vim.keymap.set({ "n", "v" }, "<leader>cf", function()
 	require("conform").format({
+		bufnr = vim.api.nvim_get_current_buf(),
 		lsp_fallback = true,
 		async = false,
 		timeout_ms = 500,

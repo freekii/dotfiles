@@ -11,4 +11,8 @@ cloudtoken
 #ignore github copilot secets
 github-copilot
 
+# ignore work things
+acli
+signalfm
+
 raycast
