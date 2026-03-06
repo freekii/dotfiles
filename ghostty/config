@@ -1,0 +1,39 @@
+################################
+# Font
+################################
+
+font-size = 14
+
+# Ghostty doesn’t split normal/bold/italic into separate tables;
+# you specify the font family once and (optionally) style overrides.
+
+font-family = FiraMono Nerd Font Mono
+
+font-style = Regular
+font-style-bold = Bold
+font-style-italic = Italic
+font-style-bold-italic = "Bold Italic"
+
+################################
+# Window
+################################
+
+title = " "
+macos-titlebar-proxy-icon = hidden
+window-width=1000
+window-height=800
+
+################################
+# Colors / Theme
+################################
+
+
+theme = Dracula 
+
+quick-terminal-position = center
+
+bell-features = no-title
+
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-style-blink = false
