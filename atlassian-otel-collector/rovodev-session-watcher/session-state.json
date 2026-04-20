@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "sessions": {
+    "w448c1de-8664-4be1-8d5b-f35e7e6e7062": {
+      "session_id": "w448c1de-8664-4be1-8d5b-f35e7e6e7062",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/w448c1de-8664-4be1-8d5b-f35e7e6e7062/session_context.json",
+      "last_turn_index": 9,
+      "last_modified_unix": 1776144796,
+      "last_processed_unix": 1776144796,
+      "session_start_unix": 1776049793
+    },
+    "w46d0d48-0547-4306-abdd-8461cc20a71f": {
+      "session_id": "w46d0d48-0547-4306-abdd-8461cc20a71f",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/w46d0d48-0547-4306-abdd-8461cc20a71f/session_context.json",
+      "last_turn_index": 8,
+      "last_modified_unix": 1773981088,
+      "last_processed_unix": 1776068654,
+      "session_start_unix": 1773980315
+    },
+    "w46d0d48-0e01-4599-b5fb-97afbfef08ba": {
+      "session_id": "w46d0d48-0e01-4599-b5fb-97afbfef08ba",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/w46d0d48-0e01-4599-b5fb-97afbfef08ba/session_context.json",
+      "last_turn_index": 4,
+      "last_modified_unix": 1773707477,
+      "last_processed_unix": 1776068655,
+      "session_start_unix": 1773707384
+    },
+    "w46d0d48-6979-4132-aece-a5e5ab968a9e": {
+      "session_id": "w46d0d48-6979-4132-aece-a5e5ab968a9e",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/w46d0d48-6979-4132-aece-a5e5ab968a9e/session_context.json",
+      "last_turn_index": 239,
+      "last_modified_unix": 1773810870,
+      "last_processed_unix": 1776068654,
+      "session_start_unix": 1773708696
+    },
+    "w46d0d48-a7e9-4e6e-bc6e-31b0fdcdca31": {
+      "session_id": "w46d0d48-a7e9-4e6e-bc6e-31b0fdcdca31",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/w46d0d48-a7e9-4e6e-bc6e-31b0fdcdca31/session_context.json",
+      "last_turn_index": 4,
+      "last_modified_unix": 1773801900,
+      "last_processed_unix": 1776068655,
+      "session_start_unix": 1773801863
+    },
+    "w4859b8c-41e7-4d34-99ea-8fd667d37f07": {
+      "session_id": "w4859b8c-41e7-4d34-99ea-8fd667d37f07",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/w4859b8c-41e7-4d34-99ea-8fd667d37f07/session_context.json",
+      "last_turn_index": 13,
+      "last_modified_unix": 1774411343,
+      "last_processed_unix": 1776068654,
+      "session_start_unix": 1774411055
+    },
+    "w70af30d-7ef3-496d-8531-2b6287ce9b99": {
+      "session_id": "w70af30d-7ef3-496d-8531-2b6287ce9b99",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/w70af30d-7ef3-496d-8531-2b6287ce9b99/session_context.json",
+      "last_turn_index": 143,
+      "last_modified_unix": 1775109758,
+      "last_processed_unix": 1776068653,
+      "session_start_unix": 1775014704
+    },
+    "w70af30d-f514-4e29-931b-4fee025b11ab": {
+      "session_id": "w70af30d-f514-4e29-931b-4fee025b11ab",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/w70af30d-f514-4e29-931b-4fee025b11ab/session_context.json",
+      "last_turn_index": 57,
+      "last_modified_unix": 1776381680,
+      "last_processed_unix": 1776381680,
+      "session_start_unix": 1776311809
+    },
+    "w776740a-17fa-4d7b-8188-e1f5f98505bd": {
+      "session_id": "w776740a-17fa-4d7b-8188-e1f5f98505bd",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/w776740a-17fa-4d7b-8188-e1f5f98505bd/session_context.json",
+      "last_turn_index": 4,
+      "last_modified_unix": 1776382067,
+      "last_processed_unix": 1776382067,
+      "session_start_unix": 1776381858
+    },
+    "w776740a-8572-48b1-9f84-af6857fbb3fc": {
+      "session_id": "w776740a-8572-48b1-9f84-af6857fbb3fc",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/w776740a-8572-48b1-9f84-af6857fbb3fc/session_context.json",
+      "last_turn_index": 10,
+      "last_modified_unix": 1775168046,
+      "last_processed_unix": 1776068653,
+      "session_start_unix": 1775159357
+    },
+    "w88f4bfe-7084-4c5a-8e3a-bf20becd4282": {
+      "session_id": "w88f4bfe-7084-4c5a-8e3a-bf20becd4282",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/w88f4bfe-7084-4c5a-8e3a-bf20becd4282/session_context.json",
+      "last_turn_index": 4,
+      "last_modified_unix": 1773723083,
+      "last_processed_unix": 1776068655,
+      "session_start_unix": 1773722762
+    },
+    "w88f4bfe-7d4a-46e8-859d-9db26cedad82": {
+      "session_id": "w88f4bfe-7d4a-46e8-859d-9db26cedad82",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/w88f4bfe-7d4a-46e8-859d-9db26cedad82/session_context.json",
+      "last_turn_index": 3,
+      "last_modified_unix": 1773979690,
+      "last_processed_unix": 1776068654,
+      "session_start_unix": 1773979640
+    },
+    "w88f4bfe-84e6-43f6-80b8-4881cff40a09": {
+      "session_id": "w88f4bfe-84e6-43f6-80b8-4881cff40a09",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/w88f4bfe-84e6-43f6-80b8-4881cff40a09/session_context.json",
+      "last_turn_index": 3,
+      "last_modified_unix": 1773979678,
+      "last_processed_unix": 1776068654,
+      "session_start_unix": 1773975611
+    },
+    "w88f4bfe-ae69-4c4a-a178-c17a0af80934": {
+      "session_id": "w88f4bfe-ae69-4c4a-a178-c17a0af80934",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/w88f4bfe-ae69-4c4a-a178-c17a0af80934/session_context.json",
+      "last_turn_index": 6,
+      "last_modified_unix": 1774933041,
+      "last_processed_unix": 1776068654,
+      "session_start_unix": 1774932944
+    },
+    "w88f4bfe-c673-49a6-8c2c-8e62219c8be0": {
+      "session_id": "w88f4bfe-c673-49a6-8c2c-8e62219c8be0",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/w88f4bfe-c673-49a6-8c2c-8e62219c8be0/session_context.json",
+      "last_turn_index": 3,
+      "last_modified_unix": 1774332717,
+      "last_processed_unix": 1776068654,
+      "session_start_unix": 1774332641
+    },
+    "w88f4bfe-e9cb-4772-bf1b-6a053d8f2635": {
+      "session_id": "w88f4bfe-e9cb-4772-bf1b-6a053d8f2635",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/w88f4bfe-e9cb-4772-bf1b-6a053d8f2635/session_context.json",
+      "last_turn_index": 3,
+      "last_modified_unix": 1774322841,
+      "last_processed_unix": 1776068654,
+      "session_start_unix": 1774322776
+    },
+    "wa584715-7436-4252-9063-26d47540d42d": {
+      "session_id": "wa584715-7436-4252-9063-26d47540d42d",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/wa584715-7436-4252-9063-26d47540d42d/session_context.json",
+      "last_turn_index": 25,
+      "last_modified_unix": 1776643978,
+      "last_processed_unix": 1776643978,
+      "session_start_unix": 1776387857
+    },
+    "wc2d2876-0f50-4e4a-bdf2-aa0b0fcad23a": {
+      "session_id": "wc2d2876-0f50-4e4a-bdf2-aa0b0fcad23a",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/wc2d2876-0f50-4e4a-bdf2-aa0b0fcad23a/session_context.json",
+      "last_turn_index": 68,
+      "last_modified_unix": 1774999867,
+      "last_processed_unix": 1776068653,
+      "session_start_unix": 1774916889
+    },
+    "wc2d2876-4663-431a-a0da-d62a64475670": {
+      "session_id": "wc2d2876-4663-431a-a0da-d62a64475670",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/wc2d2876-4663-431a-a0da-d62a64475670/session_context.json",
+      "last_turn_index": 23,
+      "last_modified_unix": 1774505337,
+      "last_processed_unix": 1776068654,
+      "session_start_unix": 1774502625
+    },
+    "wc2d2876-4e28-44c6-8f56-98138c6a2a9e": {
+      "session_id": "wc2d2876-4e28-44c6-8f56-98138c6a2a9e",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/wc2d2876-4e28-44c6-8f56-98138c6a2a9e/session_context.json",
+      "last_turn_index": 102,
+      "last_modified_unix": 1773719886,
+      "last_processed_unix": 1776068655,
+      "session_start_unix": 1773715186
+    },
+    "wc2d2876-501d-444d-a58f-725d36e631b5": {
+      "session_id": "wc2d2876-501d-444d-a58f-725d36e631b5",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/wc2d2876-501d-444d-a58f-725d36e631b5/session_context.json",
+      "last_turn_index": 187,
+      "last_modified_unix": 1774238249,
+      "last_processed_unix": 1776068654,
+      "session_start_unix": 1773813063
+    },
+    "wc2d2876-5100-47cc-a366-8fa91873ace0": {
+      "session_id": "wc2d2876-5100-47cc-a366-8fa91873ace0",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/wc2d2876-5100-47cc-a366-8fa91873ace0/session_context.json",
+      "last_turn_index": 25,
+      "last_modified_unix": 1773710058,
+      "last_processed_unix": 1776068655,
+      "session_start_unix": 1773708381
+    },
+    "wc2d2876-746e-44a4-9131-4824f7e964c6": {
+      "session_id": "wc2d2876-746e-44a4-9131-4824f7e964c6",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/wc2d2876-746e-44a4-9131-4824f7e964c6/session_context.json",
+      "last_turn_index": 2,
+      "last_modified_unix": 1775799905,
+      "last_processed_unix": 1776068653,
+      "session_start_unix": 1775799770
+    },
+    "wc2d2876-81ab-4917-9fdd-385147e3ac44": {
+      "session_id": "wc2d2876-81ab-4917-9fdd-385147e3ac44",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/wc2d2876-81ab-4917-9fdd-385147e3ac44/session_context.json",
+      "last_turn_index": 44,
+      "last_modified_unix": 1776149471,
+      "last_processed_unix": 1776149471,
+      "session_start_unix": 1776147246
+    },
+    "wc2d2876-a5e7-4846-89de-e11b25997431": {
+      "session_id": "wc2d2876-a5e7-4846-89de-e11b25997431",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/wc2d2876-a5e7-4846-89de-e11b25997431/session_context.json",
+      "last_turn_index": 31,
+      "last_modified_unix": 1775541911,
+      "last_processed_unix": 1776068653,
+      "session_start_unix": 1775541123
+    },
+    "wc2d2876-e91e-410b-abe0-bcc2a1cb84d6": {
+      "session_id": "wc2d2876-e91e-410b-abe0-bcc2a1cb84d6",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/wc2d2876-e91e-410b-abe0-bcc2a1cb84d6/session_context.json",
+      "last_turn_index": 109,
+      "last_modified_unix": 1775108829,
+      "last_processed_unix": 1776068653,
+      "session_start_unix": 1775104180
+    },
+    "wc40d0f2-259f-45a4-b14a-a64d9494d530": {
+      "session_id": "wc40d0f2-259f-45a4-b14a-a64d9494d530",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/wc40d0f2-259f-45a4-b14a-a64d9494d530/session_context.json",
+      "last_turn_index": 65,
+      "last_modified_unix": 1775539666,
+      "last_processed_unix": 1776068653,
+      "session_start_unix": 1775524881
+    },
+    "wc40d0f2-2b6b-4946-b1b3-404e41c844e1": {
+      "session_id": "wc40d0f2-2b6b-4946-b1b3-404e41c844e1",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/wc40d0f2-2b6b-4946-b1b3-404e41c844e1/session_context.json",
+      "last_turn_index": 103,
+      "last_modified_unix": 1774246205,
+      "last_processed_unix": 1776068654,
+      "session_start_unix": 1773982043
+    },
+    "wc40d0f2-3a3a-4f5b-9172-4882087d9357": {
+      "session_id": "wc40d0f2-3a3a-4f5b-9172-4882087d9357",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/wc40d0f2-3a3a-4f5b-9172-4882087d9357/session_context.json",
+      "last_turn_index": 15,
+      "last_modified_unix": 1773709680,
+      "last_processed_unix": 1776068655,
+      "session_start_unix": 1773709448
+    },
+    "wc40d0f2-3b7d-42c6-8d95-e490d45a1b37": {
+      "session_id": "wc40d0f2-3b7d-42c6-8d95-e490d45a1b37",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/wc40d0f2-3b7d-42c6-8d95-e490d45a1b37/session_context.json",
+      "last_turn_index": 108,
+      "last_modified_unix": 1774572545,
+      "last_processed_unix": 1776068654,
+      "session_start_unix": 1774320510
+    },
+    "wc40d0f2-7f63-4de2-b356-12ce401acbe8": {
+      "session_id": "wc40d0f2-7f63-4de2-b356-12ce401acbe8",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/wc40d0f2-7f63-4de2-b356-12ce401acbe8/session_context.json",
+      "last_turn_index": 120,
+      "last_modified_unix": 1776656555,
+      "last_processed_unix": 1776656555,
+      "session_start_unix": 1775694285
+    },
+    "wc40d0f2-8237-4c70-a240-f4e343ec5a16": {
+      "session_id": "wc40d0f2-8237-4c70-a240-f4e343ec5a16",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/wc40d0f2-8237-4c70-a240-f4e343ec5a16/session_context.json",
+      "last_turn_index": 12,
+      "last_modified_unix": 1775632160,
+      "last_processed_unix": 1776068653,
+      "session_start_unix": 1775632012
+    },
+    "wc40d0f2-9895-489e-8825-b4f3ead3cca7": {
+      "session_id": "wc40d0f2-9895-489e-8825-b4f3ead3cca7",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/wc40d0f2-9895-489e-8825-b4f3ead3cca7/session_context.json",
+      "last_turn_index": 6,
+      "last_modified_unix": 1775545281,
+      "last_processed_unix": 1776068653,
+      "session_start_unix": 1775545095
+    },
+    "wc40d0f2-99d1-4594-8c9f-8c933f94022f": {
+      "session_id": "wc40d0f2-99d1-4594-8c9f-8c933f94022f",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/wc40d0f2-99d1-4594-8c9f-8c933f94022f/session_context.json",
+      "last_turn_index": 17,
+      "last_modified_unix": 1774841333,
+      "last_processed_unix": 1776068654,
+      "session_start_unix": 1774830245
+    },
+    "wc40d0f2-c770-4b22-a51d-29b483376f4a": {
+      "session_id": "wc40d0f2-c770-4b22-a51d-29b483376f4a",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/wc40d0f2-c770-4b22-a51d-29b483376f4a/session_context.json",
+      "last_turn_index": 155,
+      "last_modified_unix": 1774589938,
+      "last_processed_unix": 1776068654,
+      "session_start_unix": 1774415445
+    },
+    "wc40d0f2-cb07-4642-b545-f039b57365c2": {
+      "session_id": "wc40d0f2-cb07-4642-b545-f039b57365c2",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/wc40d0f2-cb07-4642-b545-f039b57365c2/session_context.json",
+      "last_turn_index": 9,
+      "last_modified_unix": 1775609502,
+      "last_processed_unix": 1776068653,
+      "session_start_unix": 1775608848
+    },
+    "we2423da-649f-43af-bc39-67554d94b464": {
+      "session_id": "we2423da-649f-43af-bc39-67554d94b464",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/we2423da-649f-43af-bc39-67554d94b464/session_context.json",
+      "last_turn_index": 5,
+      "last_modified_unix": 1775087274,
+      "last_processed_unix": 1776068653,
+      "session_start_unix": 1775087189
+    },
+    "we2423da-673b-43be-90f7-3af368cc3e7c": {
+      "session_id": "we2423da-673b-43be-90f7-3af368cc3e7c",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/we2423da-673b-43be-90f7-3af368cc3e7c/session_context.json",
+      "last_turn_index": 20,
+      "last_modified_unix": 1776323121,
+      "last_processed_unix": 1776323121,
+      "session_start_unix": 1776322820
+    },
+    "we2423da-974e-40fe-9021-dda1e8128319": {
+      "session_id": "we2423da-974e-40fe-9021-dda1e8128319",
+      "file_path": "/Users/mfreeman/.rovodev/sessions/we2423da-974e-40fe-9021-dda1e8128319/session_context.json",
+      "last_turn_index": 17,
+      "last_modified_unix": 1775020459,
+      "last_processed_unix": 1776068653,
+      "session_start_unix": 1775015149
+    }
+  }
+}
