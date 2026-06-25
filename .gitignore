@@ -14,5 +14,6 @@ github-copilot
 # ignore work things
 acli
 signalfm
+atlassian-otel-collector
 
 raycast
