@@ -15,6 +15,13 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+-- custom filetype syntax highlighting
+vim.filetype.add({
+	extension = {
+		nadel = "graphql",
+	},
+})
+
 -- Setup lazy.nvim (plugin support)
 require("lazy").setup({
 	spec = {
