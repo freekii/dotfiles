@@ -1,4 +1,4 @@
-vim.lsp.enable({ "lua_ls", "ts_ls", "gopls", "graphql", "pyright", "yaml", "terraformls" })
+vim.lsp.enable({ "lua_ls", "ts_ls", "gopls", "graphql", "pyright", "yaml", "terraformls", "jdtls" })
 
 vim.diagnostic.config({
 	virtual_lines = {
