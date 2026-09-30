@@ -46,3 +46,6 @@ require("config.options")
 
 -- Enable LSP's
 require("config.lsp")
+
+-- Enable Auto Commands
+require("config.autocmds")
