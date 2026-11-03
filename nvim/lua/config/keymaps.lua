@@ -26,6 +26,9 @@ vim.keymap.set("n", "<leader>ff", telescope_builtin.live_grep, {})
 vim.keymap.set("n", "<leader>gd", telescope_builtin.lsp_definitions, {})
 vim.keymap.set("n", "<leader>gr", telescope_builtin.lsp_references, {})
 vim.keymap.set("n", "<leader>gi", telescope_builtin.lsp_implementations, {})
+vim.keymap.set("n", "<leader>gs", telescope_builtin.lsp_document_symbols, {})
+vim.keymap.set("n", "<leader>gS", telescope_builtin.lsp_dynamic_workspace_symbols, {})
+vim.keymap.set("n", "<leader>gt", telescope_builtin.lsp_type_definitions, {})
 -- nvim tree
 vim.keymap.set("n", "<leader>ntt", "<Cmd>NvimTreeToggle<CR>")
 -- buffers
@@ -44,3 +47,42 @@ end)
 -- gitsigns
 local gitsigns = require("gitsigns")
 vim.keymap.set("n", "<leader>pl", gitsigns.preview_hunk)
+
+-- java template in the current buffer for quick experiments (leetcode, interviews)
+vim.keymap.set("n", "<leader>jn", function()
+	local buf = vim.api.nvim_get_current_buf()
+	local lines = vim.api.nvim_buf_get_lines(buf, 0, -1, false)
+	local has_content = #lines > 1 or lines[1] ~= ""
+	if has_content and vim.fn.confirm("Replace buffer contents with Java template?", "&Yes\n&No", 2) ~= 1 then
+		return
+	end
+
+	-- unnamed buffers get a file in the current directory (Main.java, Main1.java, ...)
+	-- so the run keymaps have something to execute
+	local class_name = "Main"
+	local current = vim.api.nvim_buf_get_name(buf)
+	if current == "" then
+		local i = 0
+		while vim.uv.fs_stat(vim.fn.getcwd() .. "/" .. class_name .. ".java") do
+			i = i + 1
+			class_name = "Main" .. i
+		end
+		vim.api.nvim_buf_set_name(buf, vim.fn.getcwd() .. "/" .. class_name .. ".java")
+	else
+		class_name = vim.fn.fnamemodify(current, ":t:r")
+	end
+
+	vim.api.nvim_buf_set_lines(buf, 0, -1, false, {
+		"import java.io.*;",
+		"import java.util.*;",
+		"",
+		"public class " .. class_name .. " {",
+		"    public static void main(String[] args) throws IOException {",
+		"        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));",
+		"        ",
+		"    }",
+		"}",
+	})
+	vim.bo[buf].filetype = "java"
+	vim.api.nvim_win_set_cursor(0, { 7, 8 })
+end, { desc = "Java: insert template in current buffer" })
