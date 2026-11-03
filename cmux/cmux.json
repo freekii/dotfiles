@@ -51,6 +51,44 @@
           "option" : false,
           "shift" : false
         }
+      },
+      "nextSidebarTab" : {
+        "first" : {
+          "command" : true,
+          "control" : false,
+          "key" : "]",
+          "keyCode" : 30,
+          "option" : false,
+          "shift" : true
+        }
+      },
+      "nextSurface" : {
+        "first" : {
+          "command" : false,
+          "control" : false,
+          "key" : "",
+          "option" : false,
+          "shift" : false
+        }
+      },
+      "prevSidebarTab" : {
+        "first" : {
+          "command" : true,
+          "control" : false,
+          "key" : "[",
+          "keyCode" : 33,
+          "option" : false,
+          "shift" : true
+        }
+      },
+      "prevSurface" : {
+        "first" : {
+          "command" : false,
+          "control" : false,
+          "key" : "",
+          "option" : false,
+          "shift" : false
+        }
       }
     }
   }
